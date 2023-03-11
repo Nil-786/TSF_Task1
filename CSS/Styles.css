@@ -1,0 +1,107 @@
+body{
+    background-color: #5cdb95;
+}
+/* Navbar */
+.navbar-brand{
+    font-family: 'Rampart One', sans-serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    color: black;
+}
+.navbar-brand:hover{
+    color: #05386b;
+}
+.nav-link{
+    color: black;
+    transition: 500ms;
+}
+.nav-link:hover{
+    color:#05386b;
+    padding: 0px;
+    border-bottom: 1px solid #05386b;
+}
+.left h1{
+    font-family: 'Rampart One', sans-serif;
+    font-size: 4rem;
+    padding-top: 25%;
+}
+
+.right{
+    text-align: right;
+}
+.bank-img{
+    padding: 8% 0 0% 20%;
+    text-align: center;
+    font-size: 30rem;
+}
+
+/* customers */
+.customers{
+    background-color: #5cdb95;
+}
+.customers h1{
+    margin-top: 20px;
+    font-family: 'Rampart One', sans-serif;
+    text-align: center;
+    border-bottom:0.5rem dotted #05386b;
+}
+
+/* Transfer-form */
+.transfer-form{
+    width: 500px;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: auto;
+    background-color:#05386b;
+    color: #5cdb95;
+    padding: 5px;
+    border-radius: 10px;
+}
+.transfer-form .btn{
+    margin-left: 200px;
+}
+
+.transfer-form h1{
+    font-family: 'Rampart One', sans-serif;
+    text-align: center;
+}
+
+.transfer-form-header{
+    display: flex;
+    align-items: center;
+}
+
+.transfer-form-header h1{
+    margin-right: auto;
+}
+
+#close{
+    background-color: #5cdb95;
+    color: #05386b;
+    border-radius: 20px;
+    border: 1px solid #05386b;
+}
+
+.Tsuccess{
+    font-family: 'Rampart One', sans-serif;
+    text-align: center;
+    padding: 25px;
+    background-color: black;
+    color: wheat;
+    width: 400px;
+    border-radius: 30px;
+    font-weight: 200;
+    display: none;
+    position: fixed;
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: auto;
+    
+}
+
